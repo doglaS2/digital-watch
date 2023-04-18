@@ -1,0 +1,1 @@
+![](https://github.com/doglaS2/digital-watch/blob/master/home.png)
