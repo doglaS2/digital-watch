@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans';
+}
+
+body {
+    height: 100vh;
+    background-image: url(C1novayork.jpg);background-repeat: no-repeat;
+    background-size: 100%;
+    text-decoration: none;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+}
+
+.relogio div{
+    height: 179px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(34, 34, 34, 0.6);
+    box-shadow: 5px, 5px, 15px rgba(0,0,0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.relogio span.tempo{
+
+    font-size:10px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-direto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    color:#fff;
+    font-family: 'Open sans';
+    
+}
+
+
+
